@@ -13,6 +13,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 
 // TODO 5: Import and apply Morgan middleware
+app.use(morgan("dev"));
 
 
 // TODO 6.1: Create root route "/"
